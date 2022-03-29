@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    background-color: black;
+}
+
+.header{
+    color: #32b9cd;
+    border-bottom: 2px solid #32b9cd ;
+
+}
+
+.container{
+    color: #32b9cd;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container ul{
+    color: #FFFFFF;
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;
+    list-style: none   ;
+}
+
+.header .container{
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.agora{
+font-weight:600;
+}
+
+.banner{
+    height:500px;
+    background-image: url("bg-jelly-fish-para-home.png");
+    background-size: cover;
+    
+}
+
+.banner .container{
+    height: 500px;
+    align-items: center;
+}
+
+.banner p {
+    color: #FFFFFF;
+    margin:0;
+    padding: 0;
+    font-size: 36px;
+    width: 280px;
+    margin-left: 350px;
+}
+
+.banner span{
+font-weight: 800;
+}
+
+/*login*/
+
+.banner .card{
+    background-color: beige;
+    height: 450px;
+    width: 400px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.card{
+    margin-top: 20px;
+
+}
+.btn_entrar{
+    font-family: monospace;
+    margin-top: 10px;
+    border: 0;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size:18px;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    background-color:#E75459;
+    cursor: pointer;    
+}
+.input{
+    border:solid 1px #E75459;
+    border-radius: 4px;
+    height: 30px;
+}
