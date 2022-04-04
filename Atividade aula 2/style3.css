@@ -1,0 +1,35 @@
+body{
+    background-color:#4D4D4D ;
+    
+}
+.a{
+    justify-content: center;
+    background-color: white;
+    height: 500px;
+    width: 50%;
+    display: -ms-flexbox;
+    border: dotted 10px;
+    border-color: black;
+    
+   
+}
+.b{
+    background-color: yellow;
+    height: 50px;
+    width:30%;
+}
+.c{
+    background-color:rgb(199, 90, 2) ;
+    height: 100px;
+    width: 30%;
+
+}
+.d{
+    background-color: rgb(10, 247, 10);
+    color: white;
+    font-size: 30px;
+    padding: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+   
+}
