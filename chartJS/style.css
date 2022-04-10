@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+body{
+    display: flex;
+    background: rgb(6,103,241);
+    background: linear-gradient(90deg, rgba(6,103,241,1) 0%, rgba(10,90,176,1) 52%, rgba(118,174,240,1) 100%);
+    justify-content: center;
+}
+h1{
+    margin-top: 35px;
+    font-family: 'Work Sans';
+    position: fixed;    
+}
+.fundo{
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 80%;
+    height: 80%;
+    background-color: #FFFFFF;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+}
+.Grafico1{
+    margin-top: 90px;
+    font-family: 'Work Sans', sans-serif; color: grey;
+    width: 45%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+}
+.Grafico1 p{
+    margin-left: 70px;
+}
+
+.Grafico2{
+    
+    align-items:center;
+    justify-content: center;
+    margin-top: 90px;
+    font-family: 'Work Sans', sans-serif; color: grey;
+    width: 45%;
+    height: 70%;
+}
+.Grafico2 p{
+    margin-left: 70px;
+}
+#meugrafico1{
+    position: absolute;
+    height:80px;
+    width:80px;
+}
+#meugrafico2{
+    position: absolute;
+    height:60%;
+    width:60%;
+}
